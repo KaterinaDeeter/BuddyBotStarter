@@ -20,6 +20,6 @@ public class Drive extends SubsystemBase {
 
     public void stopMotorSpeed()
     {
-        m_Motor.set(0); //sets speed to 0, effectively stopping it
+        m_Motor.set(0); //sets speed to 0, effectively stopping it. 
     }
 }
